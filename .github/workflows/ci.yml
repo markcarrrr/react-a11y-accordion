@@ -26,6 +26,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           yarn install
+          yarn format
           yarn build
           yarn lint
-          yarn test
+          yarn test -u
