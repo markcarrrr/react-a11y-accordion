@@ -1,0 +1,74 @@
+{
+  "name": "react-a11y-accordion",
+  "version": "0.1.0",
+  "description": "A ReactJS accessible accordion utilising the HTML details and summary tags for native semantics and accessibility.",
+  "author": "Mark Carr",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markcarrrr/react-a11y-accordion.git"
+  },
+  "homepage": "https://github.com/markcarrrr/react-a11y-accordion",
+  "keywords": [
+    "react",
+    "reactjs",
+    "accordion",
+    "a11y",
+    "accessible",
+    "accessibility",
+    "react-component"
+  ],
+  "bugs": {
+    "url": "https://github.com/markcarrrr/react-a11y-accordion/issues"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "format": "prettier --write .",
+    "lint": "eslint \"src/**\" --fix",
+    "start": "webpack-dev-server --open --mode development",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.33",
+    "@types/react-dom": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-html": "^6.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "jest": "^25.3.0",
+    "jest-cli": "^25.3.0",
+    "prettier": "^2.0.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
