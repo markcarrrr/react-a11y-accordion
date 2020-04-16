@@ -21,7 +21,7 @@ npm install --save @markcarrrr/react-a11y-accordion
 ## Example Usage
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion>
@@ -47,7 +47,7 @@ export default () => (
 Pass in text for the accordion header (output within the `<summary>` tag).
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion>
@@ -71,7 +71,7 @@ export default () => (
 Allow only one accordion item to be open at any time. Please note if for any reason multiple `open` props are added to the `<AccordionItem>` child components then only the first item with an `open` prop will be open.
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion onlyOneOpen>
@@ -93,7 +93,7 @@ export default () => (
 Callback on accordion item selection. Returns open state and id for selected item.
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion onSelect={() => {})}>
@@ -115,7 +115,7 @@ export default () => (
 Pass in an id for the accordion item wrapper (applied on the `<details>` tag).
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion>
@@ -137,7 +137,7 @@ export default () => (
 Add if you want the item open by default (applied on the `<details>` tag). Please note if `onlyOneOpen` has been added to `<Accordion>` and for any reason multiple `open` props are added to the `<AccordionItem>` child components then only the first item with an `open` prop will be open.
 
 ```js
-import { Accordion, AccordionItem } from 'react-a11y-accordion';
+import { Accordion, AccordionItem } from '@markcarrrr/react-a11y-accordion';
 
 export default () => (
   <Accordion>
