@@ -1,6 +1,6 @@
 {
   "name": "@markcarrrr/react-a11y-accordion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A ReactJS accessible accordion utilising the HTML details and summary tags for native semantics and accessibility.",
   "author": "Mark Carr",
   "license": "ISC",
@@ -69,5 +69,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "main": "src/index.ts"
+  "files": [
+    "dist/"
+  ],
+  "main": "dist/main.js"
 }
