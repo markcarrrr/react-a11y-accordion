@@ -1,4 +1,4 @@
-# react-a11y-accordion
+# react-a11y-accordion ![CI](https://github.com/markcarrrr/react-a11y-accordion/workflows/CI/badge.svg)
 
 A ReactJS accessible accordion utilising the HTML `<details>` and `<summary>` tags for native semantics and accessibility.
 
