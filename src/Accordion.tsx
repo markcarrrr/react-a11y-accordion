@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-interface AccordionInterface {
+export interface AccordionInterface {
   className?: string;
   onlyOneOpen?: boolean;
   onSelect?(isOpen: boolean, currentId: string): void;
 }
 
-interface AccordionStateInterface {
+export interface AccordionStateInterface {
   [id: string]: boolean;
 }
 
-interface AccordionItemInterface {
+export interface AccordionItemInterface {
   children: React.ReactNode;
   header: string;
   id?: string;
