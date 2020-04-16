@@ -4,6 +4,9 @@
   "description": "A ReactJS accessible accordion utilising the HTML details and summary tags for native semantics and accessibility.",
   "author": "Mark Carr",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/markcarrrr/react-a11y-accordion.git"
