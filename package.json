@@ -4,6 +4,10 @@
   "description": "A ReactJS accessible accordion utilising the HTML details and summary tags for native semantics and accessibility.",
   "author": "Mark Carr",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markcarrrr/react-a11y-accordion.git"
+  },
   "homepage": "https://github.com/markcarrrr/react-a11y-accordion",
   "keywords": [
     "react",
@@ -64,5 +68,6 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "main": "src/index.ts"
 }
