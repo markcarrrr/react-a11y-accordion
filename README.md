@@ -9,13 +9,13 @@ A ReactJS accessible accordion utilising the HTML `<details>` and `<summary>` ta
 ## Installing
 
 ```
-yarn add react-a11y-accordion
+yarn add @markcarrrr/react-a11y-accordion
 ```
 
 OR
 
 ```
-npm install --save react-a11y-accordion
+npm install --save @markcarrrr/react-a11y-accordion
 ```
 
 ## Example Usage

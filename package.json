@@ -1,6 +1,6 @@
 {
-  "name": "react-a11y-accordion",
-  "version": "0.1.0",
+  "name": "@markcarrrr/react-a11y-accordion",
+  "version": "1.0.1",
   "description": "A ReactJS accessible accordion utilising the HTML details and summary tags for native semantics and accessibility.",
   "author": "Mark Carr",
   "license": "ISC",
@@ -11,12 +11,10 @@
   "homepage": "https://github.com/markcarrrr/react-a11y-accordion",
   "keywords": [
     "react",
-    "reactjs",
     "accordion",
     "a11y",
     "accessible",
-    "accessibility",
-    "react-component"
+    "accessibility"
   ],
   "bugs": {
     "url": "https://github.com/markcarrrr/react-a11y-accordion/issues"
