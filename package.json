@@ -69,9 +69,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
-  "types": "index.d.ts",
   "files": [
-    "dist/main.js"
+    "dist/"
   ],
-  "main": "dist/main.js"
+  "main": "dist/index.js"
 }
