@@ -20,7 +20,7 @@
     "url": "https://github.com/markcarrrr/react-a11y-accordion/issues"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && tsc",
     "format": "prettier --write .",
     "lint": "eslint \"src/**\" --fix",
     "start": "webpack-dev-server --open --mode development",
@@ -70,7 +70,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "files": [
-    "dist/"
+    "lib/"
   ],
-  "main": "dist/index.js"
+  "main": "lib/index.js"
 }

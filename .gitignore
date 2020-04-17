@@ -2,4 +2,5 @@
 __snapshots__/
 coverage/
 dist/
+lib/
 node_modules/
